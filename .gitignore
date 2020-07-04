@@ -24,6 +24,21 @@
 *.pyc
 .DS_Store
 target/
+backups/
+.class
+.DS_Store
+data/
+*test*
+*.jar
+tmp/
+part-
+*.csv
+*.xlsx
+target/
+*.iml
+.idea/
+.bak
+test/
 venv/
 
 
