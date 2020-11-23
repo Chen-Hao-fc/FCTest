@@ -1,0 +1,2 @@
+docker run -it --gpus all --name=FcTest_ch  -v /data2/ch/:/code  -p 8027:22 --shm-size=16g --ulimit memlock=-1 --ulimit stack=67108864 pytorch:2008 /bin/bash
+
